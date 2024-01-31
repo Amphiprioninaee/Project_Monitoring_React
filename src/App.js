@@ -1,11 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.css'; 
+import Login from './components/Login'
+// import Ex from './components/locofy'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div className="app-container">
+      <Login />
+      {/* <Ex/> */}
     </div>
   );
-}
+};
 
 export default App;
