@@ -1,15 +1,54 @@
-import React from 'react';
-import './App.css'; 
-import Login from './components/Login'
-// import Ex from './components/locofy'
+import React, { useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route, useNavigate, useLocation } from "react-router-dom";
+import LoginPage from "./components/LoginPage";
 
-const App = () => {
+function App() {
+  const action = useNavigate();
+  const location = useLocation();
+  const pathname = location.pathname;
+
+  useEffect(() => {
+    if (action !== "POP") {
+      window.scrollTo(0, 0);
+    }
+  }, [action, pathname]);
+
+  useEffect(() => {
+    let title = "";
+    let metaDescription = "";
+
+    switch (pathname) {
+      case "/":
+        title = "";
+        metaDescription = "";
+        break;
+    }
+
+    if (title) {
+      document.title = title;
+    }
+
+    if (metaDescription) {
+      const metaDescriptionTag = document.querySelector('head > meta[name="description"]');
+      if (metaDescriptionTag) {
+        metaDescriptionTag.content = metaDescription;
+      }
+    }
+  }, [pathname]);
+
   return (
-    <div className="app-container">
-      <Login />
-      {/* <Ex/> */}
-    </div>
+    <Routes>
+      <Route path="/" element={<LoginPage />} />
+    </Routes>
   );
-};
+}
 
-export default App;
+function MainApp() {
+  return (
+    <Router>
+      <App />
+    </Router>
+  );
+}
+
+export default MainApp;

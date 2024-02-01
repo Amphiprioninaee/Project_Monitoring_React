@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belleza:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Butcherman:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-butcherman: Butcherman;
+  --font-inter: Inter;
+  --font-montserrat: Montserrat;
+  --font-poppins: Poppins;
+  --font-belleza: Belleza;
+
+  /* font sizes */
+  --font-size-6xl: 25px;
+  --font-size-xl: 20px;
+  --font-size-lg: 18px;
+  --font-size-sm: 14px;
+  --font-size-mini: 15px;
+  --font-size-mid: 17px;
+
+  /* Colors */
+  --color-darkslategray-100: #385a74;
+  --color-darkslategray-200: rgba(61, 81, 99, 0.8);
+  --color-darkgray: #97949d;
+  --color-gray-100: #1c2948;
+  --color-gray-200: rgba(0, 0, 0, 0.85);
+  --color-gray-300: rgba(0, 0, 0, 0.75);
+  --color-steelblue-100: #6295c6;
+  --color-silver: #bfbfbf;
+  --color-dimgray: #535459;
+
+  /* Gaps */
+  --gap-mid: 17px;
+
+  /* Paddings */
+  --padding-lgi: 19px;
+  --padding-xl: 20px;
+  --padding-8xl: 27px;
+  --padding-xs: 12px;
+  --padding-3xs: 10px;
+  --padding-base: 16px;
+  --padding-4xs: 9px;
+
+  /* Border radiuses */
+  --br-mini: 15px;
+  --br-16xl: 35px;
+  --br-18xl: 37px;
+  --br-sm: 14px;
+}
