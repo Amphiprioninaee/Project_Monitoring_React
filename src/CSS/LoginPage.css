@@ -51,7 +51,7 @@ body {
 .medianskill {
     position: absolute;
     top: 50px;
-    left: 68px;
+    left: 80px;
     font-size: var(--font-size-sm);
     color: var(--color-gray-300);
     text-align: left;
@@ -60,7 +60,7 @@ body {
   .login {
     position: absolute;
     top: 50px;
-    left: 421px;
+    left: 430px;
     background: linear-gradient(265.52deg, #2c6ba7, #97c3ec);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -70,12 +70,12 @@ body {
   .home {
     position: absolute;
     top: 50px;
-    left: 583px;
+    left: 590px;
     font-weight: 600;
   }
   .about,
   .contact {
-    left: 746px;
+    left: 754px;
   }
   .contact {
     left: 892px;
@@ -113,7 +113,7 @@ body {
   }
   .frame-home-about-contact {
     height: 100px;
-    width: 1412px;
+    width: 50px;
     position: relative;
     max-width: 101%;
     flex-shrink: 0;
@@ -647,6 +647,7 @@ body {
   .image-133-icon {
     height: 509.4px;
     flex: 1;
+    left: 200px;
     position: relative;
     max-width: 100%;
     overflow: hidden;
@@ -728,8 +729,8 @@ body {
     max-width: 100%;
   }
   .img-login {
-    height: 1172px;
-    width: 803px;
+    height: 100px;
+    width: 500px;
     flex-direction: column;
     align-items: center;
     padding: 17px var(--padding-xl) 64px;
@@ -751,6 +752,7 @@ body {
     position: relative;
     min-width: 665px;
     min-height: 1172px;
+    left: 225px;
     text-align: left;
     font-size: var(--font-size-mini);
     color: var(--color-gray-100);

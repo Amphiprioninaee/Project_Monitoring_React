@@ -4,23 +4,21 @@ import elm from './../images/7elemet@2x.png'
 import sign from './../images/at-sign@2x.png'
 import img from './../images/image-133@2x.png'
 import ig from './../images/instagram-circle@2x.png'
-import lg from './../images/lg@2x.png'
+import lg from './../images/logo-median.svg'
 import lk from './../images/linkedin-circled@2x.png'
 import tw from './../images/twitterx@2x.png'
 import user from './../images/user@2x.png'
 import dmn from './../images/image 85.png'
-
-
 
 const LoginPage: FunctionComponent = () => {
   return (
     <div className="login-page">
       <header className="frame-home-about-contact-wrapper">
         <div className="frame-home-about-contact">
-          <div className="medianskill">
+          {/* <div className="medianskill">
             <b>Median</b>
             <span>Skill</span>
-          </div>
+          </div> */}
           <b className="login">Login</b>
           <div className="home">Home</div>
           <div className="about">About</div>
@@ -53,14 +51,12 @@ const LoginPage: FunctionComponent = () => {
                 <div className="group-login">
                   <div className="rectangle-group">
                     <div className="frame-item" />
-                    <img src={user} alt="lg" className="user-icon" />
-                    {/* <img className="user-icon" alt="" src="/user@2x.png" /> */}
+                    <img src={user} alt="" className="user-icon" />
                     <div className="username">Username</div>
                   </div>
                   <div className="rectangle-container">
                     <div className="frame-inner" />
-                    <img src={user} alt="lg" className="user-icon1" />
-                    {/* <img className="user-icon1" alt="" src="/user@2x.png" /> */}
+                    <img src={user} alt="" className="user-icon1" />
                     <div className="password">Password</div>
                   </div>
                   <div className="login-form">
@@ -76,16 +72,9 @@ const LoginPage: FunctionComponent = () => {
           </div>
           <div className="background-frame">
             <div className="footer-frame">
-            <img src={elm} alt="lg" className="elemet-icon" />
-              {/* <img className="elemet-icon" alt="" src="/7elemet@2x.png" /> */}
+            <img src={elm} alt="" className="elemet-icon" />
               <div className="footer-img">
-                {/* nooo */}
-              <img src={dmn} alt="lg" className="instagram-icon" />
-                {/* <img
-                  className="instagram-icon"
-                  alt=""
-                  src="/instagram-icon.svg"
-                /> */}
+              {/* <img src={dmn} alt="" className="instagram-icon" /> */}
                 <h1 className="staff-login">Staff Login.</h1>
                 <h3 className="project-monitoring-system">
                   Project Monitoring System
@@ -96,44 +85,14 @@ const LoginPage: FunctionComponent = () => {
                 <div className="copyright-2024-">
                   © Copyright 2024 - MedianSkill.
                 </div>
-                <img src={lk} alt="lg" className="linkedin-circled-icon" />
-                {/* <img
-                  className="linkedin-circled-icon"
-                  loading="eager"
-                  alt=""
-                  src="/linkedin-circled@2x.png"
-                /> */}
-                <img src={sign} alt="lg" className="at-sign-icon" />
-                {/* <img
-                  className="at-sign-icon"
-                  loading="eager"
-                  alt=""
-                  src="/at-sign@2x.png"
-                /> */}
-                <img src={ig} alt="lg" className="instagram-circle-icon" />
-                {/* <img
-                  className="instagram-circle-icon"
-                  loading="eager"
-                  alt=""
-                  src="/instagram-circle@2x.png"
-                /> */}
+                <img src={lk} alt="" className="linkedin-circled-icon" />
+                <img src={sign} alt="" className="at-sign-icon" />
+                <img src={ig} alt="" className="instagram-circle-icon" />
                 <footer className="blank-frame">
                   <div className="blank-frame-child" />
                 </footer>
-                <img src={tw} alt="lg" className="twitterx-icon" />
-                {/* <img
-                  className="twitterx-icon"
-                  loading="eager"
-                  alt=""
-                  src="/twitterx@2x.png"
-                /> */}
-                <img src={dmn} alt="lg" className="diamond-icon" />
-                {/* <img
-                  className="diamond-icon"
-                  loading="eager"
-                  alt=""
-                  src="/diamond@2x.png"
-                /> */}
+                <img src={tw} alt="" className="twitterx-icon" />
+                <img src={dmn} alt="" className="diamond-icon" />
               </div>
             </div>
             <div className="img-login">
@@ -147,24 +106,18 @@ const LoginPage: FunctionComponent = () => {
                 </div>
                 <div className="rounded-ellipse" />
                 <img src={img} alt="lg" className="image-133-icon" />
-                {/* <img
-                  className="image-133-icon"
-                  loading="eager"
-                  alt=""
-                  src="/image-133@2x.png"
-                /> */}
               </div>
               <div className="footer-frame1">
                 <div className="second-ellipse" />
               </div>
-              <div className="thin-frame">
+              {/* <div className="thin-frame">
                 <div className="comma-frames">
                   <h3 className="h3">“</h3>
                   <div className="spacer-texts">
                     <h3 className="h31">“</h3>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
